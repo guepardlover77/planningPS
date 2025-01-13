@@ -27,7 +27,7 @@ Pour utiliser ce programme, vous devez avoir Python installé sur votre machine.
 4. **Installer pip (si nécessaire)** :
    - `pip` est généralement inclus avec l'installation de Python. Pour vérifier, tapez :
      ```bash
-     pip3 --version
+     pip --version
      ```
    - Si `pip` n'est pas installé, vous pouvez l'installer en utilisant la commande suivante :
      ```bash
@@ -51,20 +51,11 @@ pip install openpyxl pytz Pillow
 
 ## Utilisation
 
-1. **Lancer le programme** :
-   Exécutez le script Python. Une interface graphique s'ouvrira.
-
-2. **Sélectionner les fichiers** :
-   - **Fichier calendrier (.txt)** : Cliquez sur "Parcourir" pour sélectionner le fichier texte contenant les informations de calendrier.
-   - **Fichier binômes PS (.txt)** : Cliquez sur "Parcourir" pour sélectionner le fichier texte contenant les informations des binômes.
-   - **Fichier PSP (.txt)** : Cliquez sur "Parcourir" pour sélectionner le fichier texte contenant les informations des PSP.
-   - **Dossier de sortie** : Cliquez sur "Parcourir" pour sélectionner le dossier où le fichier Excel généré sera enregistré.
-
-3. **Générer le planning** :
-   Cliquez sur le bouton "Générer le planning". Le programme traitera les fichiers sélectionnés et générera un fichier Excel contenant le planning.
-
-4. **Vérifier le statut** :
-   Le statut de l'opération sera affiché dans la zone de statut en bas de l'interface. En cas de succès, un message de confirmation s'affichera avec le chemin du fichier généré. En cas d'erreur, un message d'erreur s'affichera.
+```bash
+git clone https://github.com/guepardlover77/planningPS.git
+cd planningPS
+python3 main.py
+```
 
 ## Fonctionnalités
 
@@ -77,7 +68,7 @@ pip install openpyxl pytz Pillow
 ## Exemple de fichiers d'entrée
 
 - **Fichier calendrier (.txt)** : Contient les événements au format iCalendar (BEGIN:VEVENT, DTSTART, DTEND, SUMMARY, END:VEVENT).
-- **Fichier binômes PS (.txt)** : Contient la liste des binômes, un par ligne.
+- **Fichier binômes PS (.txt)** : Contient la liste des PS, un par ligne.
 - **Fichier PSP (.txt)** : Contient la liste des PSP, un par ligne.
 
 ## Exemple de fichier de sortie
