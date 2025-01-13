@@ -1,6 +1,6 @@
 # Génération de Planning
 
-Ce programme Python permet de générer un planning à partir de fichiers texte contenant des informations de calendrier, de binômes et de PSP. Le planning généré est exporté sous forme de fichier Excel.
+Ce programme Python permet de générer un planning à partir de fichiers texte contenant des informations de calendrier, de PS et de PSP. Le planning généré est exporté sous forme de fichier Excel.
 
 ## Prérequis
 
@@ -20,21 +20,6 @@ pip install openpyxl pytz Pillow
 # Génération de Planning
 
 Ce programme Python permet de générer un planning à partir de fichiers texte contenant des informations de calendrier, de binômes et de PSP. Le planning généré est exporté sous forme de fichier Excel.
-
-## Prérequis
-
-Avant d'utiliser ce programme, assurez-vous d'avoir installé les bibliothèques suivantes :
-
-- `tkinter`
-- `openpyxl`
-- `pytz`
-- `Pillow`
-
-Vous pouvez les installer en utilisant pip :
-
-```bash
-pip install openpyxl pytz Pillow
-```
 
 ## Installation de Python sur macOS
 
@@ -68,6 +53,20 @@ Pour utiliser ce programme, vous devez avoir Python installé sur votre machine.
      sudo easy_install pip
      ```
 
+## Prérequis
+
+Avant d'utiliser ce programme, assurez-vous d'avoir installé les bibliothèques suivantes :
+
+- `tkinter`
+- `openpyxl`
+- `pytz`
+- `Pillow`
+
+Vous pouvez les installer en utilisant pip :
+
+```bash
+pip install openpyxl pytz Pillow
+```
 
 ## Utilisation
 
