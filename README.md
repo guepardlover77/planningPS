@@ -31,7 +31,7 @@ Pour utiliser ce programme, vous devez avoir Python installé sur votre machine.
      ```
    - Si `pip` n'est pas installé, vous pouvez l'installer en utilisant la commande suivante :
      ```bash
-     sudo easy_install pip
+     python3 -m ensurepip --upgrade
      ```
 
 ## Prérequis
