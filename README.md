@@ -54,6 +54,7 @@ pip install openpyxl pytz Pillow
 ```bash
 git clone https://github.com/guepardlover77/planningPS.git
 cd planningPS
+python3 trier_cal.py
 python3 main.py
 ```
 
